@@ -2,7 +2,7 @@ package training.organization;
 
 import java.util.Objects;
 
-public class Person {
+public abstract class Person {
     private String firstName;
     private String lastName;
     private int age;
@@ -71,9 +71,9 @@ public class Person {
     }
 
     public String print(){
-        return "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
-                ", salary=" + salary ;
-    }
+        return "firstName = " + firstName +
+                ", lastName = " + lastName +
+                ", age = " + age +
+                ", salary = " + salary ;
+}
 }

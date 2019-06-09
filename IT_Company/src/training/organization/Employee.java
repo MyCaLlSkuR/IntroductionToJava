@@ -4,6 +4,8 @@ import java.util.Objects;
 
 public abstract class Employee extends Person{
     private int manHours;
+    protected Positions pos;
+
     public Employee(){
 
     }
@@ -37,9 +39,10 @@ public abstract class Employee extends Person{
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "\nEmployee{" +
                 super.print()+
-                ", manHours=" + manHours+
-                '}';
+                ", manHours = " + manHours+
+                ", position = " + pos+
+                "}";
     }
 }
