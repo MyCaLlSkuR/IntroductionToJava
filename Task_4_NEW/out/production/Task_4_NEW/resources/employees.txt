@@ -1,0 +1,12 @@
+middle Sergeev Alex 25 1100 2
+junior Avdeev Max 30 800 1
+dfyjgy
+senior Popov Egor 30 2000 3
+jbk
+
+middle Bykov Sergey 28 1000 2
+junior Sapegina Ann 20 800 1
+senior gdnkb 52
+junior Vlasova Liza 18 800 1
+
+middle Bykova Ana 28 900 2

@@ -1,4 +1,5 @@
-package training.organization;
+package entity;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,17 +50,8 @@ public class Team {
         return cost;
     }
 
-    public List<Employee> getJuniorsUnderN(int N){
-        List<Employee> sorted = new ArrayList<>();
-        for (Employee employee: juniors){
-            if (employee.getAge() < N){
-                sorted.add(employee);
-            }
-        }
-        return sorted;
-    }
 
-    public List<Employee> sortBySalary (int minSalary, int maxSalary){
+    public List<Employee> getEmpWithSalaryBetween (int minSalary, int maxSalary){
         List<Employee> sorted = new ArrayList<>();
         for (Employee employee: juniors){
             if (employee.getSalary() >= minSalary && employee.getSalary() <= maxSalary){
